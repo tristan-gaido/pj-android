@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">interim</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="sign_up_candidate">S\'inscrire en tant que candidat</string>
+    <string name="sign_up_employer">S\'inscrire en tant qu\'employeur</string>
+    <string name="login">Se connecter</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Titre de l'application -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GestInterim"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Logo de l'application -->
+
+    <!-- Bouton de connexion pour l'employeur avec style arrondi -->
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="229dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/interimlogo" />
+
+    <!-- Bouton de connexion pour le candidat avec style arrondi -->
+    <Button
+        android:id="@+id/btnEmployeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connexion Employeur"
+        android:background="@drawable/button_rounded"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCandidat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connexion Candidat"
+        android:background="@drawable/button_rounded"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Bouton pour l'accès anonyme avec style arrondi -->
+    <Button
+        android:id="@+id/btnAnonyme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mode Anonyme"
+        android:background="@drawable/button_rounded"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tvTitleCandidature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidater"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAnnonceDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de l'annonce"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvAnnonceDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description de l'annonce"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"/>
+
+    <EditText
+        android:id="@+id/etPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prénom"/>
+
+    <EditText
+        android:id="@+id/etDateNaissance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de naissance"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/etTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Téléphone"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/btnCandidater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candidater"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
