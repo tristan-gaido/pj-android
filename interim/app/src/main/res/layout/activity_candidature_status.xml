@@ -20,9 +20,8 @@
     <include layout="@layout/item_candidature"/>
 
     <!-- Bloc d'annonce 2 -->
-    <include layout="@layout/item_candidature"/>
+    <include layout="@layout/item_candidature2"/>
 
-    <!-- Bloc d'annonce 3 -->
-    <include layout="@layout/item_candidature"/>
+
 
 </LinearLayout>

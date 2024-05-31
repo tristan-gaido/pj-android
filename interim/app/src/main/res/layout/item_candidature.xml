@@ -16,7 +16,7 @@
             android:id="@+id/imageViewLogo"
             android:layout_width="60dp"
             android:layout_height="100dp"
-            android:src="@drawable/joblogo" /> <!-- Changé ic_launcher_background par joblogo -->
+            android:src="@drawable/joblogo" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -38,7 +38,6 @@
                 android:layout_height="wrap_content"
                 android:text="Nous cherchons un chef de projet expérimenté" />
 
-            <!-- LinearLayout horizontal pour le bouton et le statut -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

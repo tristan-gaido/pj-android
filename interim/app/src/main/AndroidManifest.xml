@@ -21,7 +21,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value=""/>
+            android:value="AIzaSyB9o7l2X68QIGjna781BhTaDzgaiPWp67s"/>
 
 
 
@@ -33,19 +33,23 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".logique.LoginActivity">
         </activity>
-        <activity android:name=".EmployerSignupActivity">
+        <activity android:name=".logique.EmployerSignupActivity">
         </activity>
-        <activity android:name=".CandidateSignupActivity">
+        <activity android:name=".logique.CandidateSignupActivity">
         </activity>
-        <activity android:name=".AnnonceActivity"
+        <activity android:name=".candidat.AnnonceActivity"
             android:label="Annonces">
         </activity>
-        <activity android:name=".CandidatureActivity">
+        <activity android:name=".candidat.CandidatureActivity">
         </activity>
-        <activity android:name=".CandidatureStatusActivity" />
-        <activity android:name=".GestionCandidatureActivity" />
+        <activity android:name=".candidat.CandidatureStatusActivity" />
+        <activity android:name=".candidat.GestionCandidatureActivity" />
+        <activity android:name=".employeur.DeposerAnnonceActivity" />
+        <activity android:name=".employeur.MesOffresActivity" />
+        <activity android:name=".employeur.VoirOffreActivity" />
+
 
 
 

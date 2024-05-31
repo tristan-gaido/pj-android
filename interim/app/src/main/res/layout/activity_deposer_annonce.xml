@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nouvelle Annonce"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"/>
+
+    <EditText
+        android:id="@+id/etDateDebut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date début"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/etDateFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date fin"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/etCompetences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Liste des compétences"/>
+
+    <EditText
+        android:id="@+id/etRemuneration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rémunération"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnPublier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publier"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

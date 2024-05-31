@@ -38,5 +38,7 @@ dependencies {
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.constraintlayout:constraintlayout:2.0.4")
     implementation("com.google.android.gms:play-services-maps:17.0.1")
+    implementation("com.google.android.material:material:1.4.0")
+
 
 }
